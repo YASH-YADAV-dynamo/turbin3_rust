@@ -2,5 +2,4 @@
 2)cargo test airdrop -- --nocapture
 3)cargo test transfer_sol -- --nocapture (update ur Turbin3-wallet.json with regsitered array fromat private key)
 4)cargo test transfer_all_sol -- --nocapture
-5) with care , go to main branch and change lib.rs , then type:
-6) cargo test test_prereq -- --nocapture
+5) cargo test test_prereq -- --nocapture
