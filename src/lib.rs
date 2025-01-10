@@ -1,3 +1,4 @@
+mod programs;
 use bs58;
 use std::io::{self, BufRead};
 use std::str::FromStr;
@@ -127,7 +128,7 @@ mod tests {
         let keypair = read_keypair_file("dev-wallet.json")
             .expect("Couldn't find wallet file");
 
-        let to_pubkey = Pubkey::from_str("DxPv2QMA5cWR5Xj8RGKfcT64ctH6f3qWuiyvtsdXotPz")
+        let to_pubkey = Pubkey::from_str("3Sdhi2KDhBiZWQHWrYhb8QZuXh5NrQ7xM2TbEaidFAiX")
             .expect("Invalid public key");
 
         let rpc_client = RpcClient::new(RPC_URL);
